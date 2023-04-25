@@ -11,6 +11,7 @@ def lambda_handler(event, context):
     BUCKET_NAME = "s3-emp-project-data"
     current_epoch_time = datetime.datetime.now().timestamp()
     print("updated")
+    print("updated2")
     
     print("Start Data Write in S3")
     s3 = boto3.resource('s3')

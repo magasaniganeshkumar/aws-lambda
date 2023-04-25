@@ -7,6 +7,7 @@ emp_ages = [18, 19, 20, 21, 22, 23, 24]
 emp_salarys = [1000, 10000, 20000, 30000, 40000, 50000, 60000]
 emp_addresses = ['Tirupati', 'Madanapalle', 'Chennai', 'MPL', 'Tirumala', 'TTD', "Chittoor"]
 print("updated")
+print("updated2")
 
 def lambda_handler(event, context):
     # TODO implement

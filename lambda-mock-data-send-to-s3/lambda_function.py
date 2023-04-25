@@ -14,6 +14,7 @@ def lambda_handler(event, context):
     #     key = obj.key
     #     print(key)
     print("updated")
+    print("updated2")
         
     try:
         bucket_name = event["Records"][0]["s3"]["bucket"]["name"]
